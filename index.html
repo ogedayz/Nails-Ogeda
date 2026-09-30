@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Juliana Ogeda Nail Designer - Estética de unhas, alongamentos em gel, fibra de vidro e nail art.">
+  <title>Juliana Ogeda | Nail Designer</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💅</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">✨</span>
+        <div class="logo-text">
+          <span class="logo-name">Juliana Ogeda</span>
+          <span class="logo-sub">NAIL DESIGNER</span>
+        </div>
+      </a>
+      
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Quem Somos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+        </ul>
+      </nav>
+
+      <a href="#agendamento" class="btn-primary">Agendar</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1>Sua autoestima refletida em cada detalhe</h1>
+        <p>Especialista em alongamentos em gel, fibra de vidro e nail art com alto padrão de biossegurança.</p>
+        <div class="hero-buttons">
+          <a href="#agendamento" class="btn-primary btn-large">Agendar Atendimento</a>
+          <a href="#servicos" class="btn-secondary">Ver Serviços</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Quem Somos</h2>
+        <div class="about-content">
+          <p>Fundado por Juliana Ogeda, o ateliê nasceu da paixão pela estética das unhas e do compromisso em oferecer um atendimento personalizado. Com anos de experiência no mercado de beleza, priorizamos a saúde das unhas naturais, utilizando produtos de alta durabilidade e rigorosos protocolos de esterilização em autoclave para garantir segurança e sofisticação a cada cliente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="services-grid">
+          <div class="card">
+            <span class="card-icon">💎</span>
+            <h3>Alongamento em Gel</h3>
+            <p>Técnica de extensão com acabamento natural, resistência e alta durabilidade.</p>
+          </div>
+          <div class="card">
+            <span class="card-icon">🌾</span>
+            <h3>Fibra de Vidro</h3>
+            <p>Estrutura leve e fina para quem busca um visual extremamente natural e resistente.</p>
+          </div>
+          <div class="card">
+            <span class="card-icon">🎨</span>
+            <h3>Nail Art Exclusiva</h3>
+            <p>Decorações artesanais feitas à mão personalizadas para o seu estilo.</p>
+          </div>
+          <div class="card">
+            <span class="card-icon">✨</span>
+            <h3>Esmaltação em Gel</h3>
+            <p>Brilho intenso e cor impecável por até 20 dias sem descascar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="container">
+        <h2 class="section-title">Galeria de Trabalhos</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80" alt="Alongamento em gel com acabamento natural">
+            <figcaption>Alongamento em Gel Natural</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727fec88f2d?auto=format&fit=crop&w=600&q=80" alt="Nail art minimalista moderna">
+            <figcaption>Nail Art Minimalista</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=600&q=80" alt="Esmaltação vermelha clássica em gel">
+            <figcaption>Esmaltação Vermelha Clássica</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80" alt="Aplicação de fibra de vidro em formato amendoadas">
+            <figcaption>Fibra de Vidro Amendoada</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="agendamento" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Agende seu Horário</h2>
+        <form class="booking-form" id="form-agendamento">
+          <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail Corporativo / Pessoal</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="data">Data Desejada</label>
+            <input type="date" id="data" name="data" required>
+          </div>
+          <div class="form-group">
+            <label for="servico">Serviço Desejado</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione um serviço</option>
+              <option value="gel">Alongamento em Gel</option>
+              <option value="fibra">Fibra de Vidro</option>
+              <option value="nailart">Nail Art Exclusiva</option>
+              <option value="esmaltacao">Esmaltação em Gel</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">Confirmar Agendamento</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <h3>Juliana Ogeda</h3>
+        <p>Estética e cuidados para unhas com elegância e biossegurança.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Quem Somos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais & Contato</h4>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="external-link">Instagram ↗</a>
+        <a href="https://web.whatsapp.com" target="_blank" rel="noopener noreferrer" class="external-link">WhatsApp Web ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Juliana Ogeda Nail Designer. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div id="banner-cookies" class="banner-cookies">
+    <p>Utilizamos cookies para personalizar sua experiência. Ao continuar navegando, você concorda com a nossa política.</p>
+    <button type="button" id="btn-aceitar-cookies" class="btn-cookies">Entendi e Aceito</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
